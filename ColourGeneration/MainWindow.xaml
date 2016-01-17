@@ -6,7 +6,143 @@
         xmlns:local="clr-namespace:ColourGeneration"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Fill="#ff0000"/>
+            <Rectangle Grid.Column="1"
+            Fill="#0000ff"/>
+            <Rectangle Grid.Column="2"
+            Fill="#00ff00"/>
+            <Rectangle Grid.Column="3" Fill="#ff0000"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Fill="#ff0000"/>
+            <Rectangle Grid.Column="1"
+            Fill="#ff00ff"/>
+            <Rectangle Grid.Column="2"
+            Fill="#0000ff"/>
+            <Rectangle Grid.Column="3"
+            Fill="#00ffff"/>
+            <Rectangle Grid.Column="4"
+            Fill="#00ff00"/>
+            <Rectangle Grid.Column="5"             Fill="#ffff00"/>
+            <Rectangle Grid.Column="6"             Fill="#ff0000"/>
+
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Fill="#ff0000"/>
+            <Rectangle Grid.Column="1"
+            Fill="#ff007f"/>
+            <Rectangle Grid.Column="2"
+            Fill="#ff00ff"/>
+            <Rectangle Grid.Column="3"
+            Fill="#7f00ff"/>
+            <Rectangle Grid.Column="4"
+            Fill="#0000ff"/>
+            <Rectangle Grid.Column="5"
+            Fill="#007fff"/>
+            <Rectangle Grid.Column="6"
+            Fill="#00ffff"/>
+            <Rectangle Grid.Column="7"
+            Fill="#00ff7f"/>
+            <Rectangle Grid.Column="8"
+            Fill="#00ff00"/>
+            <Rectangle Grid.Column="9"
+            Fill="#7fff00"/>
+            <Rectangle Grid.Column="10"
+            Fill="#ffff00"/>
+            <Rectangle Grid.Column="11"           Fill="#ff7f00"/>
+            <Rectangle Grid.Column="12"             Fill="#ff0000"/>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Fill="#ff0000"/>
+            <Rectangle Grid.Column="1"             Fill="#ff003f"/>
+            <Rectangle Grid.Column="2"             Fill="#ff007f"/>
+            <Rectangle Grid.Column="3"            Fill="#ff00af"/>
+            <Rectangle Grid.Column="4"            Fill="#ff00ff"/>
+            <Rectangle Grid.Column="5"            Fill="#af00ff"/>
+            <Rectangle Grid.Column="6"            Fill="#7f00ff"/>
+            <Rectangle Grid.Column="7"            Fill="#3f00ff"/>
+            <Rectangle Grid.Column="8"            Fill="#0000ff"/>
+            <Rectangle Grid.Column="9"            Fill="#003fff"/>
+            <Rectangle Grid.Column="10"            Fill="#007fff"/>
+            <Rectangle Grid.Column="11"            Fill="#00afff"/>
+            <Rectangle Grid.Column="12"            Fill="#00ffff"/>
+            <Rectangle Grid.Column="13"            Fill="#00ffaf"/>
+            <Rectangle Grid.Column="14"            Fill="#00ff7f"/>
+            <Rectangle Grid.Column="15"            Fill="#00ff3f"/>
+            <Rectangle Grid.Column="16"            Fill="#00ff00"/>
+            <Rectangle Grid.Column="17"            Fill="#3fff00"/>
+            <Rectangle Grid.Column="18"            Fill="#7fff00"/>
+            <Rectangle Grid.Column="19"            Fill="#afff00"/>
+            <Rectangle Grid.Column="20"            Fill="#ffff00"/>
+            <Rectangle Grid.Column="21"            Fill="#ffaf00"/>
+            <Rectangle Grid.Column="22"            Fill="#ff7f00"/>
+            <Rectangle Grid.Column="23"            Fill="#ff3f00"/>
+            <Rectangle Grid.Column="24"             Fill="#ff0000"/>
+        </Grid>
     </Grid>
 </Window>
